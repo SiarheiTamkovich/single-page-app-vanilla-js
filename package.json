@@ -1,15 +1,30 @@
 {
   "name": "spa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Taken from my YouTube Tutorial:\r https://www.youtube.com/watch?v=6BozpmSjk-Y",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiarheiTamkovich/single-page-app-vanilla-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SiarheiTamkovich/single-page-app-vanilla-js/issues"
+  },
+  "homepage": "https://github.com/SiarheiTamkovich/single-page-app-vanilla-js#readme",
+  "devDependencies": {
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   }
 }
